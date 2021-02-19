@@ -1,0 +1,105 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+    padding: 60px 15px 0;
+  }
+
+  .bg-hombge{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+.col-sm-6 p {
+  line-height: 180%;
+}
+
+.col-sm-6 h2 {
+  padding-bottom: 25px;
+}
+
+footer{
+  border-top: 1px blanchedalmond solid;
+  padding-top: 10px;
+}
+
+main {
+  margin-bottom: 20px;
+  
+}
+
+
+
+.homeimg{
+  margin: 8px;
+  padding: 85px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  transition: .3s;
+  opacity: .5;
+}
+
+.homeimg:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.homeimg1{
+  background-image: url(/img/homeins/1.jpg);
+}
+
+.homeimg2{
+  background-image: url(/img/homeins/2.jpg);
+}
+
+.homeimg3{
+  background-image: url(/img/homeins/3.jpg);
+}
+
+.homeimg4{
+  background-image: url(/img/homeins/4.jpg);
+}
+
+.homeimg5{
+  background-image: url(/img/homeins/5.jpg);
+}
+
+.homeimg6{
+  background-image: url(/img/homeins/6.jpg);
+}
+.homeimg7{
+  background-image: url(/img/homeins/7.jpg);
+}
+
+.homeimg8{
+  background-image: url(/img/homeins/8.jpg);
+}
+
+.homeimg9{
+  background-image: url(/img/homeins/9.jpg);
+}
+
+
+.iconedit i{
+  padding-top: 40px;
+ padding-left: 10px;
+ font-size: 50px;
+ text-decoration: none;
+ color: rgb(22, 22, 22);
+}
+
+.iconedit i:hover{
+  background: -webkit-linear-gradient(#ef5faf, #ab46f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactindex{
+  margin-top: 100px;
+}
+
+.form_edit textarea, .form_edit input{
+  margin-top: 10px;
+  background-color: rgb(240, 240, 240);
+}
